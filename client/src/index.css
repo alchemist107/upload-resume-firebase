@@ -1,0 +1,43 @@
+.main {
+  width: 75%;
+  height: 50vh;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 40%;
+  width: 33%;
+}
+
+.todo-name-field {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.list-todo {
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+input {
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+:-webkit-autofill {
+  color: #fff !important;
+}
